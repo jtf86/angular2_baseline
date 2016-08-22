@@ -1,0 +1,17 @@
+{
+  "name": "angular2-skeleton-app",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "John <john@epicodus.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
