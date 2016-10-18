@@ -1,5 +1,6 @@
 import { Component } from 'angular2/core';
 
+
 @Component({
   selector: 'task-list',
   inputs: ['taskList'],
@@ -37,7 +38,9 @@ export class AppComponent {
       new Task("Learn Kung Fu.", 1),
       new Task("Rewatch all the Lord of the Rings movies.", 2),
       new Task("Do the laundry.", 3),
-      new Task("Learn AngularJS 2.0", 4)
+      new Task("Learn AngularJS 2.0", 4),
+      new Task("Go rock out with Amon Amarth", 6),
+      new Task("Everything is fun", 5)
     ];
   }
   taskWasSelected(clickedTask: Task): void {
